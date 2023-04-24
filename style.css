@@ -420,90 +420,9 @@ h1 {
     background-color: #FFD54F;
   }
 /*footer*/
-footer {
- background-color: #f5f5f5;
+footer{
+  background-color: #c5d6db;
 }  
-  .lemonface {
-    width: 250px;
-    height: 350px;
-    border-radius: 50% 50% 35% 35%;
-    background: linear-gradient(to bottom, #fdd835, #ffe551);
-    position: relative;
-    animation: float 4s infinite;
-  }
-  
-  .face {
-    width: 150px;
-    height: 150px;
-    background: #fff;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 15%;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .eyes {
-    width: 40px;
-    height: 40px;
-    background: #000;
-    border-radius: 50%;
-    position: absolute;
-    top: 40%;
-    left: 28%;
-    transform: translate(-50%, -50%);
-    animation: eyes 4s infinite;
-  }
-  
-  .mouth {
-    width: 50px;
-    height: 20px;
-    border: 3px solid #000;
-    border-top: none;
-    border-radius: 0 0 50% 50%;
-    position: absolute;
-    bottom: 35%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .mouth::before {
-    content: "";
-    width: 8px;
-    height: 8px;
-    background: #000;
-    border-radius: 50%;
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  @keyframes float {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-10px);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes eyes {
-    0% {
-      transform: translate(-50%, -50%);
-    }
-    50% {
-      transform: translate(-50%, -75%);
-    }
-    100% {
-      transform: translate(-50%, -50%);
-    }
-  }
-  
 /* about us page  */
 .aboutus {
     width: 100vw;

@@ -9,8 +9,7 @@ include 'header.php';
             <div class="containera left-container">
                 <div class="text-box">
                     <h2>1845</h2>
-                    <p>In 1845, Lemona Lisa decided to create a small business that was focused soley about all things Lemons because she LOVED lemons!!!!!
-                    </p>
+                    <p>In 1845, Lemona Lisa decided to create a small business that was focused soley about all things Lemons because she LOVED lemons!!!!!</p>
                     <span class="left-container-arrow"></span>
                 </div>
             </div>
@@ -51,7 +50,7 @@ include 'header.php';
             </div>
         </div>
     </div>
-    <h1 class="Membercard">Get to know our Team</h1>
+    <h1 class="Membercard">Get to Know Our Team</h1>
     <div class="container">
         <div class="row justify-content-evenly">
             <div class="col-12 col-md-6 col-lg-3">
@@ -67,7 +66,7 @@ include 'header.php';
             <div class="col-12 col-md-6 col-lg-3">
                 <img class="selfpicture" src="LemonCheckoutPicture.jpg" alt="">
                 <p class="selfwords">Noah Ratel</p>
-                <h4 class="selftext">Noah is a 15-year-old software engineer that helps develop and maintain the company's technology infrastructure. Noah aslo enjoys finding new ways to innovate and improve our operations. Outside of work, Noah .... </h4>
+                <h4 class="selftext">Noah is a 15-year-old software engineer that helps develop and maintain the company's technology infrastructure. Noah aslo enjoys finding new ways to innovate and improve our operations. Outside of work, Noah likes to play video games and sleep. </h4>
             </div>
         </div>
     </div>
