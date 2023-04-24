@@ -57,32 +57,17 @@ include 'header.php';
             <div class="col-12 col-md-6 col-lg-3">
                 <img class="selfpicture" src="LemonCheckoutPicture.jpg" alt="">
                 <p class="selfwords">Hannah Lyons</p>
-<<<<<<< HEAD
-                <h4 class="selftext">Hannah is a person and a human who plays track and volleyball!! She loves her
-                    boyfriend Christopher.</h4>
-=======
                 <h4 class="selftext">Hannah is a 18-year-old marketing manager who has been instrumental in the company's growth, developing successful marketing campaigns that have incresed and expanded the business's customer base. Outside of work, Hannah enjoys traveling and vistiting historic monuments. </h4>
->>>>>>> 09d5380d20a8be95cd444e8c473b2683939707ae
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <img class="selfpicture" src="LemonCheckoutPicture.jpg" alt="">
                 <p class="selfwords">Haley Brown </p>
-<<<<<<< HEAD
-                <h4 class="selftext">Haley is a person and a human who plays volleyball!! She loves her dogs and is
-                    thriving with single life.</h4>
-=======
                 <h4 class="selftext">Haley is a 18-year-old food inspector who is passionate about the food industry and is committed to promoting healthy eating habits through the use of high-quality ingredients. Outside of work, Haley enjoys spending time with family, friends, and her dogs.</h4>
->>>>>>> 09d5380d20a8be95cd444e8c473b2683939707ae
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <img class="selfpicture" src="LemonCheckoutPicture.jpg" alt="">
                 <p class="selfwords">Noah Ratel</p>
-<<<<<<< HEAD
-                <h4 class="selftext">Noah is a pekrson and a human who loves Cool Math games!! Find him with his cool
-                    glasses playing these games. </h4>
-=======
                 <h4 class="selftext">Noah is a 15-year-old software engineer that helps develop and maintain the company's technology infrastructure. Noah aslo enjoys finding new ways to innovate and improve our operations. Outside of work, Noah .... </h4>
->>>>>>> 09d5380d20a8be95cd444e8c473b2683939707ae
             </div>
         </div>
     </div>
@@ -98,16 +83,6 @@ include 'header.php';
                 </div>
               </div>
             </div>
-<<<<<<< HEAD
-            <div class="col-12 col-md-6 col-lg-3">
-                <img class="galleryimage" src="LemonCheckoutPicture.jpg" alt="">
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <img class="galleryimage" src="LemonCheckoutPicture.jpg" alt="">
-            </div>
-        </div>
-    </div>
-=======
             <div class="col-sm-6 col-md-3"> 
               <div class="box">
                 <div class="slide-img">
@@ -167,9 +142,10 @@ include 'header.php';
           </div>
           </div>
       </section>
+      <?php 
+      include 'footer.php';
+    ?>
         
-        
->>>>>>> 09d5380d20a8be95cd444e8c473b2683939707ae
 
 
 
