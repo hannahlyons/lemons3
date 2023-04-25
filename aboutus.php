@@ -54,17 +54,17 @@ include 'header.php';
     <div class="container">
         <div class="row justify-content-evenly">
             <div class="col-12 col-md-6 col-lg-3">
-                <img class="selfpicture" src="LemonCheckoutPicture.jpg" alt="">
+                <img class="selfpicture" src="Hannah.jpg" alt="">
                 <p class="selfwords">Hannah Lyons</p>
                 <h4 class="selftext">Hannah is a 18-year-old marketing manager who has been instrumental in the company's growth, developing successful marketing campaigns that have incresed and expanded the business's customer base. Outside of work, Hannah enjoys traveling and vistiting historic monuments. </h4>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-                <img class="selfpicture" src="LemonCheckoutPicture.jpg" alt="">
+                <img class="selfpicture" src="Haley.jpeg" alt="">
                 <p class="selfwords">Haley Brown </p>
                 <h4 class="selftext">Haley is a 18-year-old food inspector who is passionate about the food industry and is committed to promoting healthy eating habits through the use of high-quality ingredients. Outside of work, Haley enjoys spending time with family, friends, and her dogs.</h4>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
-                <img class="selfpicture" src="LemonCheckoutPicture.jpg" alt="">
+                <img class="selfpicture" src="Noah.jpg" alt="">
                 <p class="selfwords">Noah Ratel</p>
                 <h4 class="selftext">Noah is a 15-year-old software engineer that helps develop and maintain the company's technology infrastructure. Noah aslo enjoys finding new ways to innovate and improve our operations. Outside of work, Noah likes to play video games and sleep. </h4>
             </div>
@@ -119,7 +119,7 @@ include 'header.php';
               <div class="col-sm-6 col-md-3"> 
                 <div class="box">
                   <div class="slide-img">
-                    <img src="Multi lemon.jpg" alt="">
+                    <img src="lemoncheck.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -153,6 +153,17 @@ include 'header.php';
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+    <script>
+  const form = document.querySelector('#subscribe-form');
+  const emailInput = document.querySelector('#email-input');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const email = emailInput.value;
+    // Here you can add code to submit the email to a server/database
+    alert(`Thank you for subscribing, ${email}!`);
+    emailInput.value = '';
+  });
+</script>
 
     <script>
         let searchBtn = document.querySelector('.searchBtn');

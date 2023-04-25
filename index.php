@@ -235,6 +235,18 @@ include 'header.php';
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
 </script>
+<script>
+  const form = document.querySelector('#subscribe-form');
+  const emailInput = document.querySelector('#email-input');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const email = emailInput.value;
+    // Here you can add code to submit the email to a server/database
+    alert(`Thank you for subscribing, ${email}!`);
+    emailInput.value = '';
+  });
+</script>
+
 </body>
 
 </html>
